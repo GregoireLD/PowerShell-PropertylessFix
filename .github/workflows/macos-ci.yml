@@ -8,6 +8,7 @@ on:
       - master
       - release/**
       - github-mirror
+      - GLD-Action
     paths:
       - "**"
       - "*"
@@ -22,6 +23,7 @@ on:
       - release/**
       - github-mirror
       - "*-feature"
+      - GLD-Action
 # Path filters for PRs need to go into the changes job
 
 concurrency:
