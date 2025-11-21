@@ -9,6 +9,7 @@ on:
       - release/**
       - github-mirror
       - GLD-Action
+      - LazyExpandTest
     paths:
       - "**"
       - "*"
@@ -24,6 +25,7 @@ on:
       - github-mirror
       - "*-feature"
       - GLD-Action
+      - LazyExpandTest
 # Path filters for PRs need to go into the changes job
 
 concurrency:
